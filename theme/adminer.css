@@ -1,6 +1,6 @@
 /* 
  * Theme by Douglas Damasio [http://github.com/douglasdamasio]
- * Based on Pepa Linha [https://github.com/vrana/adminer/tree/master/designs/pepa-linha]
+ * Based on Pepa Linha
  * Color syntax inspired by Dracula Theme [https://draculatheme.com/]
  * @version 1.0 (June 2020)
  */
@@ -180,7 +180,7 @@
    padding: 15px;
    padding-top: 5px;
    margin: 0 0 15px;
-   border: 0;
+   /* border: 0; */
    background: var(--color-darkBackground);
  }
  
@@ -393,7 +393,7 @@
    float: none;
  }
  
- #tables a[title] {
+ #tables .structure, #tables .view {
    float: none;
    display: block;
  }
@@ -495,7 +495,7 @@
    background-color: var(--color-darkBackground);
    padding: 6px;
    margin: 0;
-   box-sizing: border-box;
+   /* box-sizing: border-box; */
    color: var(--color-darkForeground);
  }
  
@@ -524,7 +524,7 @@
    margin-bottom: 5px;
    transition: background .4s ease;
    border-radius: 5px;
-   margin-top: 20px;
+   /* margin-top: 20px; */
  }
  
  input[type=submit][disabled],
