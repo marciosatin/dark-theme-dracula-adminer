@@ -469,6 +469,20 @@
    padding-top: 25px;
    right: 400px;
  }
+
+ .logout {
+   position: fixed;
+   top: 30px;
+   right: 20px;
+   z-index: 10;
+   background: var(--color-darkDraculaVSCode);
+   padding: 6px 12px;
+   border-radius: 5px;
+   box-shadow: 0 0 5px rgba(0,0,0,0.2);
+   color: var(--color-darkForeground);
+   font-weight: bold;
+   text-decoration: none;
+ }
  
  .logout,
  .rtl .logout {
@@ -725,6 +739,7 @@
   border-image-width: 1;
   border-image-outset: 0;
   border-image-repeat: stretch;
+  box-shadow: none;
 }
 
  .footer > div {
