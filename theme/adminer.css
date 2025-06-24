@@ -710,6 +710,10 @@
    }
  }
 
+ .odds tbody tr:nth-child(2n) {
+   background: var(--color-darkDraculaVSCode);
+ }
+
  .footer {
   position: sticky;
   bottom: 0;
